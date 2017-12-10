@@ -8,7 +8,7 @@
 
 > --------------------------------------------------------------------------------
 
-> ## Description
+## Description
 
 > This is a website that returns a list of numbers counting from 1 up to the user's input. It returns "ping" if number is divisible by 3, "pong" if number is divisible by 5, "pingpong" if number is divisible by 15 and the current number if number is not divisible by either of the three divisors.
 
