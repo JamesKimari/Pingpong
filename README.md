@@ -1,5 +1,4 @@
 # PingPong
->pingpong
 >Developer: James Kimari
 >
 >---------------------------
@@ -9,7 +8,7 @@
 >---------------------------
 >
 ## Description
->This is a website that returns a list of numbers counting from 1 up to the user's input. It >returns "ping" if number is divisible by 3, "pong" if number is divisible by 5, "pingpong" if >number is divisible by 15 and the input number if number is not divisible by either of the three >divisors.
+>This is a website that returns a list of numbers counting from 1 up to the user's input. It returns "ping" if number is divisible by 3, "pong" if number is divisible by 5, "pingpong" if number is divisible by 15 and the input number if number is not divisible by either of the three divisors.
 
 ### Example
 >If the user inputs the number 24 and submits, this will be the output:
@@ -41,7 +40,7 @@
 
 ### Setup/Installation Requirements
 >* Internet connection
->* webpage URL:
+>* Link to deployed page: [PingPong](https://JamesKimari.github.io/Pingpong)
 
 ### Known Bugs
 >When you click the 'Clear Output!' button, the output is cleared but on input on a new number, the submit event does not work. You have to refresh the webpage and input a new number.
