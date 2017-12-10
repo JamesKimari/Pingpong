@@ -20,4 +20,6 @@ $(document).ready(function() {
     $("#btnSubmit").toggle()
     $("#btnClear").show()
     event.preventDefault()
-  
+    var inputNumber = parseInt($("input#inputNumber").val())
+    pingPongIt(inputNumber)
+    
