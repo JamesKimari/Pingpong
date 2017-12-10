@@ -26,6 +26,8 @@ $(document).ready(function() {
       $("#results").append("<li>" + inputNumber + "</li>").addClass('blue')
     })
 
+    $("#btnClear").click(function() {
+      $("#results").remove()
     })
   })
 })
