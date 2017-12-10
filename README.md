@@ -10,10 +10,14 @@
 
 > ## Description
 
-> This is a website that returns a list of numbers counting from 1 up to the user's input. It returns "ping" if number is divisible by 3, "pong" if number is divisible by 5, "pingpong" if number is divisible by 15 and the input number if number is not divisible by either of the three divisors.
+> This is a website that returns a list of numbers counting from 1 up to the user's input. It returns "ping" if number is divisible by 3, "pong" if number is divisible by 5, "pingpong" if number is divisible by 15 and the current number if number is not divisible by either of the three divisors.
+
+## Specifications
+> - The webpage counts from 1 upto to the inputted number.
+> - The webpage outputs "ping" for numbers divisible by 3, "pong" for numbers divisible by 5, "pingpong" for numbers divisible by 15 and returns the current number for those that don't meet the criteria.
+> - It also allows the user to clear the output.
 
 ## Example
-
 > If the user inputs the number 24 and submits, this will be the output:
 
 > - 1
