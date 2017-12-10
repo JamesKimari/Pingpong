@@ -1,5 +1,5 @@
 # PingPong
-pingpong
+>pingpong
 >Developer: James Kimari
 >
 >---------------------------
@@ -11,7 +11,7 @@ pingpong
 ## Description
 >This is a website that returns a list of numbers counting from 1 up to the user's input. It >returns "ping" if number is divisible by 3, "pong" if number is divisible by 5, "pingpong" if >number is divisible by 15 and the input number if number is not divisible by either of the three >divisors.
 
-###Example
+### Example
 >If the user inputs the number 24 and submits, this will be the output:
 >
 >* 1
@@ -40,22 +40,22 @@ pingpong
 >* ping
 
 ### Setup/Installation Requirements
-* Internet connection
-* webpage URL:
+>* Internet connection
+>* webpage URL:
 
 ### Known Bugs
 >When you click the 'Clear Output!' button, the output is cleared but on input on a new number, the submit event does not work. You have to refresh the webpage and input a new number.
 
 ### Technologies used
-* html5
-* css3
-* bootstrap4
-* javascript
-* jQuery-3.2.1
+>* html5
+>* css3
+>* bootstrap4
+>* javascript
+>* jQuery-3.2.1
 
 ### Support and contact details
-* Mobile number: (254) 714307232
-* Email Address: jamesgkimari@gmail.com
+>* Mobile number: (254) 714307232
+>* Email Address: jamesgkimari@gmail.com
 
 ### License and terms of use
 >[MIT License](license)
@@ -63,4 +63,4 @@ pingpong
 >
 >---------------------------
 >
-&copy; JamesKimari | Credits <a href="https://moringaschool.com/>Moringa School</a>
+>&copy; JamesKimari | Credits <a href="https://moringaschool.com/" title="Title>Moringa School</a>
