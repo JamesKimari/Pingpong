@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,54 +14,56 @@
   <script src="js/scripts.js"></script>
   <title>Document</title>
 </head>
-
 <body>
   <div class="ping-pong">
-    <h1>Ping Pong</h1>
-  </div>
+   <h1>Ping Pong</h1>
+ </div>
 
-  <hr>
+ <hr>
 
-  <div class="row pingpong-row">
-    <div class="col-md-6 pingpong-rules">
-      <h5><b>Let's Play</b></h5>
-      <p style="color: #2b81da;"><b>Rules:</b></p>
-      <p>Ping pong will count up to your number from
-        <span style="color: #2b81da;">#1</span> with the following exceptions:</p>
-      <ol>
-        <li>Numbers divisible by 3 become
-          <span style="color: darkorange;">ping</span>
-        </li>
-        <li>Numbers divisible by 5 become
-          <span style="color: #2b81da;">pong</span>
-        </li>
-        <li>Numbers divisible by 15 become
-          <span style="color: #45b53b;">pingpong</span>
-        </li>
-      </ol>
+   <div class="row pingpong-row" >
+     <div class="col-md-6 pingpong-rules">
+       <h5><b>Let's Play</b></h5>
+       <p style="color: #2b81da;"><b>Rules:</b></p>
+       <p>Ping pong will count up to your number from
+         <span style="color: #2b81da;">#1</span> with the following exceptions:</p>
+       <ol>
+         <li>Numbers divisible by 3 become
+           <span style="color: darkorange;">ping</span>
+         </li>
+         <li>Numbers divisible by 5 become
+           <span style="color: #2b81da;">pong</span>
+         </li>
+         <li>Numbers divisible by 15 become
+           <span style="color: #45b53b;">pingpong</span>
+         </li>
+       </ol>
 
-      <form class="form-inline" id="pingPongInput">
-        <label for="inputNumber" class="sr-only">inputNumber</label>
-        <input type="number" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inputNumber" placeholder="Enter a number">
-        <button type="submit" class="btn btn-primary" id="btnSubmit">Ping Pong!</button>
-        <button type="submit" class="btn btn-danger" id="btnClear">Clear Output!</button>
-      </form>
-    </div>
+       <form class="form-inline" id="pingPongInput">
+         <label for="inputNumber" class="sr-only">inputNumber</label>
+         <input type="number" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inputNumber" placeholder="Enter a number">
+         <button type="submit" class="btn btn-primary" id="btnSubmit">Ping Pong!</button>
+         <button type="submit" class="btn btn-danger" id="btnClear">Clear Output!</button>
+         </form>
+     </div>
 
-    <div class="col-md-5 pingpong-gif">
-      <img src="imgs/pingpong.gif" class="img-fluid img-thumbnail">
-    </div>
-  </div>
-  <br>
+     <div class="col-md-5 pingpong-gif">
+       <img src="imgs/pingpong.gif" class="img-fluid img-thumbnail">
+     </div>
+   </div>
+   <br>
 
-  <div class="pingpong-output">
-    <h5 style="color: #2b81da;"><b>Ping pong output:</b></h5>
-    <div id="output">
-      <ul id="results"></ul>
-    </div>
-  </div>
-  <br>
+   <div class="pingpong-output">
+     <h5 style="color: #2b81da;"><b>Ping pong output:</b></h5>
+     <div id="output">
+       <ul id="results"></ul>
+     </div>
+     </div>
+   <br>
+
+   <div class="footer">
+     <p style="font-family:'lato', serif;">@2017 Created by &#169; James Kimari. Courtesy of <a href="https://moringaschool.com/">Moringa School.</p>
+     </div>
 
 </body>
-
 </html>
