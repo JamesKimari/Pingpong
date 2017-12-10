@@ -40,7 +40,7 @@
 
 ### Setup/Installation Requirements
 >* Internet connection
->* Link to deployed page: [PingPong](https://JamesKimari.github.io/Pingpong)
+>* Link to deployed page: [PingPong](https://JamesKimari.github.io/Pingpong/)
 
 ### Known Bugs
 >When you click the 'Clear Output!' button, the output is cleared but on input on a new number, the submit event does not work. You have to refresh the webpage and input a new number.
