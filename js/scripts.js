@@ -13,3 +13,11 @@ function pingPongIt(inputNumber) {
     }
   }
 }
+
+
+$(document).ready(function() {
+  $("form#pingPongInput").submit(function(event) {
+    $("#btnSubmit").toggle()
+    $("#btnClear").show()
+    event.preventDefault()
+  
