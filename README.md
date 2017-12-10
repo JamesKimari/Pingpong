@@ -63,4 +63,4 @@
 >
 >---------------------------
 >
->&copy; JamesKimari | Credits <a href="https://moringaschool.com/" title="Title>Moringa School</a>
+>&copy; JamesKimari | Credits [Moringa School](https://moringaschool.com/)
