@@ -1,0 +1,102 @@
+* {
+  font-family: 'Slabo 27px', serif;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  text-align: center;
+  padding: 3.5% 0%;
+  color: white;
+}
+
+.ping-pong {
+  background-color: #4c2662;
+}
+
+.pingpong-row {
+  margin: 0;
+}
+
+.pingpong-rules {
+  background-color: rgba(76, 38, 98, 0.2);
+  border-radius: 0.5em;
+  margin: 0em 0.5em 0em 0.5em;
+  border-color: #2b81da;
+  border-style: solid;
+  border-width: thin;
+}
+
+.pingpong-rules h5 {
+  padding-top: 1.4em;
+  color: #2b81da;
+}
+
+form {
+  padding-bottom: 1em;
+}
+
+.pingpong-gif {
+  margin: 2em 0em 0em 5em;
+}
+
+hr {
+  border-width: thin;
+  border-color: #2b81da;
+  border-style: dashed;
+  margin: 1em 0.5em 1em 0.5em;
+}
+
+.img-thumbnail {
+  border-color: #2b81da;
+}
+
+.pingpong-output {
+  margin: 0em 0.5em 0em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: rgba(76, 38, 98, 0.2);
+  border-radius: 0.5em;
+  border-color: #2b81da;
+  border-style: solid;
+  border-width: thin;
+}
+
+.footer {
+  background-color: #4c2662;
+  padding: 2.5em 0em 1.5em 0em;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2b81da;
+}
+
+.blue {
+  color: #2b81da;
+}
+
+#btnClear {
+  display: none;
+  margin-left: 1em;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #45b53b;
+  border-color: #45b53b;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+  -webkit-box-shadow: 0 0 0 0px #45b53b;;
+  box-shadow: 0 0 0 0px #45b53b;;
+  background-color: #45b53b;
+}
