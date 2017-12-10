@@ -96,7 +96,9 @@ a:hover {
 }
 
 .btn-danger:focus, .btn-danger.focus {
-  -webkit-box-shadow: 0 0 0 0px #45b53b;;
-  box-shadow: 0 0 0 0px #45b53b;;
+  -webkit-box-shadow: 0 0 0 0px #45b53b;
+  ;
+  box-shadow: 0 0 0 0px #45b53b;
+  ;
   background-color: #45b53b;
 }
