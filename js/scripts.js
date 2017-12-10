@@ -22,4 +22,10 @@ $(document).ready(function() {
     event.preventDefault()
     var inputNumber = parseInt($("input#inputNumber").val())
     pingPongIt(inputNumber)
-    
+    pingPonged.forEach(function(inputNumber) {
+      $("#results").append("<li>" + inputNumber + "</li>").addClass('blue')
+    })
+
+    })
+  })
+})
